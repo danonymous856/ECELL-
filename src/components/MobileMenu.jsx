@@ -18,11 +18,11 @@ const MobileMenu = ({ isOpen, toggle }) => {
             className="support-us-link not-blue"
             target="_blank"
             rel="noreferrer noopener"
-            to="/support-us"
+            // to="/support-us"
 
-            // to="https://www.buymeacoffee.com/chrismorrison"
+            to="https://www.instagram.com/ecellsakec/"
           >
-            Support Us
+            Follow Us
           </Link>
         </div>
       </aside>

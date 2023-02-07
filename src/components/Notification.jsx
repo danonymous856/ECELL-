@@ -7,7 +7,7 @@ const Notification = () => {
     <NotificationStyles>
       <div className="notification-top-bar">
         <p>Revista is looking for contributors!</p>
-        <Link to="/support-us">Support Us</Link>
+        <Link to="https://www.instagram.com/ecellsakec/">Follow Us</Link>
       </div>
     </NotificationStyles>
   )

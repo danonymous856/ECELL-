@@ -1,8 +1,7 @@
 import React from 'react'
 import {
-  FaRedditSquare,
-  FaTwitterSquare,
-  FaGithubSquare,
+  FaInstagramSquare,
+  FaYoutubeSquare
 } from 'react-icons/fa'
 import styled from 'styled-components'
 
@@ -12,32 +11,22 @@ const SocialLinks = () => {
       <ul className="nav-icons">
         <li>
           <a
-            href="https://github.com/chrisnmorrison/revista-gatsby-blog-magazine"
+            href="https://www.instagram.com/ecellsakec/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Link to Github"
+            aria-label="Link to Instagram"
           >
-            <FaGithubSquare className="social-icon github-icon"></FaGithubSquare>
+            <FaInstagramSquare className="social-icon Instagram-icon"></FaInstagramSquare>
           </a>
         </li>
         <li>
           <a
-            href="#"
+            href="https://youtube.com/channel/UCX5-UquwzBkftEEtLlJQyeQ"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Link to Subreddit"
+            aria-label="Link to Yotube Channel"
           >
-            <FaRedditSquare className="social-icon reddit-icon"></FaRedditSquare>
-          </a>
-        </li>
-        <li>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Link to Twitter"
-          >
-            <FaTwitterSquare className="social-icon twitter-icon"></FaTwitterSquare>
+            <FaYoutubeSquare className="social-icon YouTube-icon"> </FaYoutubeSquare>
           </a>
         </li>
       </ul>
@@ -56,10 +45,10 @@ const SocialLinksStyles = styled.div`
   .github-icon {
     color: #4078c0;
   }
-  .twitter-icon {
-    color: #00acee;
+  .Instagram-icon {
+    color: #E4405F;
   }
-  .reddit-icon {
+  .YouTube-icon {
     color: orangered;
   }
   @media screen and (min-width: 800px) {

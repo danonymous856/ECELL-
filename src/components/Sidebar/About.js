@@ -12,15 +12,15 @@ const About = () => {
       <Wrapper>
         <Title title="Who We Are" />
         <StaticImage
-          src="../../assets/logo.png"
+          src="../../assets/e_cell_logo_BLACK.png"
           layout="fixed"
           width={100}
           height={100}
           alt="author"
           className="img"
         />
-        <p>Find the best free educational resources on your favourite topic.</p>
-        <p>Revista is free and open-source forever.</p>
+        <p>Find the best free educational resources on your favourite  enterpreneurship topic.</p>
+        <p>ECELL is free and open-source forever.</p>
         <SocialLinks className="sidebar-icons" />
       </Wrapper>
     </SidebarCard>

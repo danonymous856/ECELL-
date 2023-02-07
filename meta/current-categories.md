@@ -11,6 +11,7 @@ List:
 - Psychology
 - Science
 - Technology
+- Enterpreneur
 
 ## Subcategories
 

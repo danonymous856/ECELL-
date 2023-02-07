@@ -5,7 +5,7 @@ import { GoHeart } from 'react-icons/go'
 import Links from '../constants/links'
 import styled from 'styled-components'
 import Heart from '../assets/heart.png'
-import logo from '../assets/logo.png'
+import logo from '../assets/e_cell_logo_BLACK.png' // src\assets\e_cell_logo_BLACK.png
 import { StaticImage } from 'gatsby-plugin-image'
 // import { useStaticQuery, graphql } from 'gatsby'
 
@@ -25,8 +25,8 @@ const Navbar = ({ toggle }) => {
                 height="100"
               />
               <div className="logo-text">
-                <span className="nav-word-open">Rev</span>
-                <span className="nav-word-ed">ista</span>
+                <span className="nav-word-open">Ecell |</span>
+                <span className="nav-word-ed"> SAKEC</span>
               </div>
             </Link>
 
@@ -45,7 +45,7 @@ const Navbar = ({ toggle }) => {
             className="support-us-link not-blue"
             target="_blank"
             rel="noreferrer noopener"
-            to="/support-us"
+            to="https://www.instagram.com/ecellsakec/"
 
             // to="https://www.buymeacoffee.com/chrismorrison"
           >
@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
                 height='19'
               />
             {/* <img src={Heart} alt="" class="support-heart" /> */}
-            Support Us
+            Follow Us
           </Link>
         </div>
       </nav>

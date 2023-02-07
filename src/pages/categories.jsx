@@ -8,7 +8,7 @@ const categories = () => {
     <Layout>
       <Seo
         title="Categories | Revista"
-        description="List of all categories currently on Revista"
+        description="List of all categories currently on ECELL"
       />
       <AllCategories />
     </Layout>

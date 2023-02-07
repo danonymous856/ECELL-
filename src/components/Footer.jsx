@@ -1,7 +1,7 @@
 import React from 'react'
 import SocialLinks from '../constants/socialLinks'
 import styled from 'styled-components'
-import logo from '../assets/logo.png'
+import logo from '../assets/e_cell_logo_WHITE.png' // src\assets\e_cell_logo_BLACK.png, src\assets\e_cell_logo_WHITE.png
 import { Link } from 'gatsby'
 const Footer = () => {
   return (
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         <p className="footer-copyright">
-          &copy;2022-{new Date().getFullYear()} Revista. All rights reserved.
+          &copy;2022-{new Date().getFullYear()} ECELL. All rights reserved.
         </p>
       </div>
     </FooterStyles>

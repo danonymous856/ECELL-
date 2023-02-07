@@ -12,7 +12,8 @@ export const categories = [
   { category: 'Psychology', color: '#ceebff' },
   { category: 'Science', color: '#ffc7d6' },
   { category: 'Technology', color: '#c4ffd4' },
-  { category: 'All Categories', color: '#c9c4ff' },
+  { category: 'Donald', color: '#c9c4ff' },
+  { category: 'Enterprenuer', color: '#c4ffd4' },
 ]
 
 

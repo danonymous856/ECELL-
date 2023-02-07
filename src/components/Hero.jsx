@@ -1,35 +1,35 @@
 import React from 'react'
 import styled from 'styled-components'
 // import { StaticImage } from 'gatsby-plugin-image'
-// import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import { Link } from 'gatsby'
 import slugify from 'slugify'
 import { categories } from './utils/heroCategories'
 
-// export const query = graphql`
-//   {
-//     allMdx {
-//       distinct(field: frontmatter___category)
-//     }
-//   }
-//   `
+export const query = graphql`
+  {
+    allMdx {
+      distinct(field: frontmatter___category)
+    }
+  }
+  `
 
 const Hero = () => {
-  // const {
-  //   allMdx: {distinct},
-  // } = useStaticQuery(query);
+  const {
+    allMdx: {distinct},
+  } = useStaticQuery(query);
 
   return (
     <HeroStyles>
       <div className="hero">
         <div className="row">
           <div className="col-lg-7 col-12 hero-text">
-            <h4>Learning Paths and Curated Lists</h4>
+            {/* <h4> ECELL Blogs</h4> */}
             <h1>
-              <span>Free/Open</span>
-              <br /> Education Resources
+              <span>ECELL</span>
+              <br /> Blogs
             </h1>
-            <p>What are you interested in learning?</p>
+            <p>What you want to learn in ECELL ?</p>
           </div>
           <div className="col-lg-5 col-12">
             <div className="hero-categories">

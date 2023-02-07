@@ -12,15 +12,15 @@ require('dotenv').config({
 module.exports = {
   pathPrefix: `/`,
   siteMetadata: {
-    title: 'Revista',
+    title: 'ECELL',
     titleTemplate: '',
-    // titleTemplate: "%s - Curated List of Free Education Resources",
+    titleTemplate: "%s - Curated List of Free Education Resources Provided By ECELL",
     description:
       'Revista is an open source blog/magazine template. Simply write articles in Markdown, place in the content folder, and Revista will automatically create categories and articles!',
     url: 'https://revista.mesmerdesign.ca', // No trailing slash allowed!
-    image: '/logo.png', // Path to the image placed in the 'static' folder, in the project's root directory.
+    image: 'static/e_cell_logo_BLACK.jpg', // Path to the image placed in the 'static' folder, in the project's root directory. static\e_cell_logo_BLACK.jpg
     twitterUsername: '',
-    defaultTitle: 'Revista',
+    defaultTitle: 'ECELL',
   },
 
   plugins: [
@@ -33,14 +33,14 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-read-time-estimate`,
     `gatsby-transformer-remark`,
-    // {
-    //   resolve: 'gatsby-plugin-robots-txt',
-    //   options: {
-    //     host: 'https://mysite.com',
-    //     sitemap: 'https://mysite.com/sitemap.xml',
-    //     policy: [{ userAgent: '*', allow: '/' }],
-    //   },
-    // },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://ecellsakec.in/',
+        sitemap: 'https://ecellsakec.in/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {

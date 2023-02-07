@@ -4,7 +4,7 @@ import About from './About'
 import Partners from './Partners'
 import SidebarCategories from './SidebarCategories'
 import './sidebar-styles.scss'
-// import SidebarImage from './SidebarImage'
+import SidebarImage from './SidebarImage'
 
 const Sidebar = () => {
   return (
@@ -13,7 +13,7 @@ const Sidebar = () => {
         <About />
         <Partners />
         <SidebarCategories />
-        {/* <SidebarImage/> */}
+        { <SidebarImage/> }
       </SidebarStyles>
     </div>
   )
